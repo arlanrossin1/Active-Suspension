@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a MATLAB script, `test.m`, used to model and test a quarter-car active suspension system. The script compares a passive suspension model with an active suspension model that includes hydraulic actuator dynamics and an H-infinity controller.
+This repository contains a MATLAB script, `Active_Suspension.m`, used to model and test a quarter-car active suspension system. The script compares a passive suspension model with an active suspension model that includes hydraulic actuator dynamics and an H-infinity controller.
 
 The main purpose of the script is to evaluate how the active controller affects:
 
@@ -21,7 +21,7 @@ The script is intended to support the active suspension project by generating si
 
 | File | Description |
 |---|---|
-| `test.m` | Main MATLAB script containing the vehicle model, actuator model, H-infinity controller synthesis, passive comparison model, road input tests, plots, and printed performance values. |
+| `Active_Suspension.m` | Main MATLAB script containing the vehicle model, actuator model, H-infinity controller synthesis, passive comparison model, road input tests, plots, and printed performance values. |
 
 ## Requirements
 
@@ -46,15 +46,15 @@ A recent MATLAB version is recommended because the script uses robust control sy
 ## How to Run
 
 1. Open MATLAB.
-2. Place `test.m` in the current MATLAB working folder.
+2. Place `Active_Suspension.m` in the current MATLAB working folder.
 3. Make sure the Control System Toolbox and Robust Control Toolbox are installed.
 4. Run the script by typing:
 
 ```matlab
-test
+Active_Suspension
 ```
 
-or by opening `test.m` and pressing **Run**.
+or by opening `Active_Suspension.m` and pressing **Run**.
 
 ## What the Script Does
 
